@@ -1,0 +1,43 @@
+.books {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  justify-items: space-between;
+  /* justify-content: left; */
+  grid-row-gap: 45px;
+  grid-column-gap: 45px;
+  margin: 82px 82px 40px;
+  & > .book1 {
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    height: 420px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+    box-shadow: 3px 1px 8px black;
+    & > img {
+      width: 100%;
+      height: 270px;
+      border-bottom: 1px solid black;
+    }
+    & > article {
+      margin: 0px 10px;
+      & > h1 {
+        font-size: 16px;
+        font-family: "Nunito Sans", sans-serif;
+      }
+      & > p {
+        font-size: 12px;
+        font-family: "Nunito Sans", sans-serif;
+        // text-align: left;
+      }
+    }
+  }
+}
+.nosearch {
+  margin-top: 36px;
+}
+.link {
+  text-decoration: none;
+}

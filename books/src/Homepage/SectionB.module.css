@@ -1,0 +1,128 @@
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+
+.section_content_1 {
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.section_content_2 {
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: -50px;
+}
+
+.section_img_1 {
+  width: 80%;
+}
+
+.section_img_1 > img {
+  display: block;
+  width: 100%;
+}
+
+.section_img_2 {
+  width: 80%;
+}
+
+.section_img_2 > img {
+  display: block;
+  width: 100%;
+}
+
+.head {
+  font-size: 48px;
+  text-align: left;
+  margin-left: 134px;
+}
+
+.para {
+  font-size: 20px;
+}
+
+.para1 {
+  margin-left: 140px;
+  text-align: left;
+}
+
+.para2 {
+  text-align: left;
+  width: 80%;
+  margin-left: 136px;
+}
+
+@media (max-width: 1088px) {
+  .section_content_1 .head {
+    margin-left: 60px;
+    font-size: 40px;
+  }
+  .section_content_1 .para {
+    margin-left: 60px;
+  }
+  .section_img_1 {
+    margin-top: 50px;
+  }
+  .section_content_2 .head {
+    margin-left: 50px;
+  }
+  .section_content_2 .para {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 819px) {
+  .section_content_1 .head {
+    font-size: 32px;
+  }
+  .section_content_1 .para {
+    font-size: 16px;
+  }
+  .section_content_2 .head {
+    font-size: 32px;
+  }
+  .section_content_2 .para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 698px) {
+  .section_content_1 .head {
+    font-size: 28px;
+  }
+  .section_content_1 .para {
+    font-size: 16px;
+  }
+  .section_content_2 .head {
+    font-size: 28px;
+  }
+  .section_content_2 .para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section_content_1 .head {
+    font-size: 24px;
+  }
+  .section_content_1 .para {
+    font-size: 14px;
+  }
+  .section_content_2 .head {
+    font-size: 24px;
+  }
+  .section_content_2 .para {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=SectionB.module.css.map */

@@ -1,0 +1,257 @@
+.main {
+  height: 215vh;
+  background-color: #ffddda;
+  padding-top: 85px;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow: hidden;
+}
+
+.head {
+  text-align: left;
+  margin-top: -32px;
+  margin-bottom: 55px;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.article {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 40%;
+  border-radius: 20px;
+}
+
+.article_1, .article_2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.article:hover {
+  background-color: #f7f9f9;
+}
+
+.article_span {
+  color: #006fd6;
+  text-decoration: none;
+}
+
+.article_span:hover {
+  text-decoration: underline;
+}
+
+.article_img {
+  width: 100%;
+  margin-left: 0px;
+  /* text-align: center; */
+  border-radius: 10px;
+  height: 174px;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.article_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.article_header_two > svg {
+  margin-left: 135px;
+}
+
+.article_header_pp {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.article_header_title {
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.article_header_title > a {
+  text-decoration: none;
+  color: black;
+}
+
+.article_header_title1 {
+  font-weight: 300;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.article_header_svg {
+  width: 6.5%;
+  margin-left: 150px;
+  margin-top: -21px;
+  cursor: pointer;
+  fill: #1d9bf0;
+}
+
+.article_para {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+
+.article_parad {
+  font-weight: 400;
+  font-size: 15px;
+  color: #536471;
+}
+
+.article_parad_i {
+  margin-left: 5px;
+}
+
+.article_svgd {
+  width: 5%;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 172px;
+  fill: #536471;
+  border-radius: 50%;
+}
+
+.article_svgd:hover {
+  background-color: rgba(0, 186, 124, 0.1);
+  fill: #00ba7c;
+}
+
+.hr {
+  width: 100%;
+  /* text-align: left; */
+  margin-left: -2px;
+}
+
+.symbols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+
+.symbols_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.symbols_1 > h6 {
+  font-size: 16px;
+  color: #536471;
+}
+
+.symbols_1:hover > h6 {
+  color: #f4212e;
+}
+
+.symbols_1 svg {
+  width: 20%;
+  fill: #536471;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.symbols_1:hover > svg {
+  fill: #f4212e;
+  background-color: #ffddda;
+}
+
+.symbols_2:hover > svg {
+  fill: #006fd6;
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+.symbols_2:hover > h6 {
+  color: #006fd6;
+}
+
+.symbols_3:hover > svg {
+  background-color: rgba(0, 186, 124, 0.1);
+  fill: #00ba7c;
+}
+
+.symbols_3:hover > h6 {
+  color: #00ba7c;
+}
+
+.btn {
+  border: 1px solid #cfd9de;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: #006fd6;
+  font-weight: 700;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(0, 111, 214, 0.1);
+}
+
+.child {
+  width: 90%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.child1 {
+  border: 2px solid #cfd9de;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.child_img {
+  width: 108.5%;
+  margin-top: -7px;
+  border-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 1172px) {
+  .article p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=SectionC.module.css.map */
