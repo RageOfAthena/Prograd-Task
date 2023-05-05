@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <address className={styles.address}>
-        <h1 className={styles.head}>Wyzr</h1>
+        <h1 className={styles.head}>Books</h1>
         <h2 className={styles.head2}>Company</h2>
         <p className={styles.para1}>Contact Us</p>
         <p className={styles.para2}>About Us</p>

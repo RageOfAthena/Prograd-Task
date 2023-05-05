@@ -50,3 +50,61 @@
   text-decoration: none;
 }
 /*# sourceMappingURL=Books.module.css.map */
+.pagination{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    margin-left: 50%;
+    translate: -50%;
+    margin-bottom: 30px;
+}
+.pagination div{
+    width: 26px;
+    background-image: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    color:white;
+    height: 24px;
+    padding-top: 3px;
+    border-radius: 50%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.imagesa {
+  height: 288px;
+}
+.imagesa img{
+  height: 288px;
+}
+.filters {
+  width: 75%;
+    background-color: #fff;
+    margin: 10px auto;
+    box-shadow: 6px 5px 29px grey;
+    height: 111px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    padding-inline: 21px;
+    padding-left: 57px;
+}
+.filterslocation,
+.filterswhen,
+.filtersprice,
+.filtersproperty {
+  width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.submit {
+  /* width: 100%; */
+  height: 43px;
+  width: 155px;
+  /* width: 25%; */
+  margin: 37px auto 0 auto;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #7065f0;
+}

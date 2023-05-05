@@ -40,7 +40,7 @@ function Header(props) {
             fill="#FF7B6F"
           ></path>
         </svg>
-        <h1 className={styles.header_link_head}>wyzr</h1>
+        <h1 className={styles.header_link_head}>Books</h1>
       </a>
       {localStorage.getItem("cred") && (
         <SignMenu sig={signout} dropEl={dropEl} signEl={signEl}></SignMenu>

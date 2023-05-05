@@ -40,7 +40,7 @@ function SectionC() {
             </a>{" "}
             1st book The Productive Professional😎 available{" "}
             <a href="#" className={styles.article_span}>
-              @ http://wyzr.in
+              @ http://library.in
             </a>
           </p>
           <p className={styles.article_para}>
@@ -229,7 +229,7 @@ function SectionC() {
             </svg>
           </div>
           <p className={styles.article_para}>
-            Best 500 bucks you can spend for a year @ http://wyzr.in
+            Best 500 bucks you can spend for a year @ http://library.in
           </p>
           <article
             className={`${styles.article} ${styles.article_1} ${styles.child}`}
@@ -257,7 +257,7 @@ function SectionC() {
                 </a>{" "}
                 1st book The Productive Professional😎 available{" "}
                 <a href="#" className={styles.article_span}>
-                  @ http://wyzr.in
+                  @ http://library.in
                 </a>
               </p>
               <p className={styles.article_para}>
